@@ -1,0 +1,55 @@
+@import '../../styles/global.scss';
+
+section#feedback-item {
+  div.contents {
+    display: grid;
+    grid-template-columns: min-content 1fr min-content;
+    grid-template-rows: min-content;
+    gap: 2rem;
+    color: white;
+
+    div.rating {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      p.number {
+        font-size: 3rem;
+      }
+    }
+
+    div.content {
+      display: flex;
+      align-items: center;
+
+      p.para {
+        font-size: 2rem;
+      }
+    }
+
+    div.icons {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      gap: 2rem;
+
+      div.icon {
+        cursor: pointer;
+        position: relative;
+        width: 4rem;
+        height: 4rem;
+        background-color: white;
+        border-radius: 50%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        p {
+          font-size: 2rem;
+          text-align: center;
+        }
+      }
+    }
+  }
+}

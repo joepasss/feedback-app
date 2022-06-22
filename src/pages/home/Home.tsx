@@ -1,13 +1,14 @@
 import './home.scss';
-import { Card } from '../../components/card/Card';
 import { FeedbackStats } from '../../secions/feedbackStats/FeedbackStats';
 import { FeedbackForm } from '../../secions/feedbackForm/FeedbackForm';
+import { FeedbackItem } from '../../secions/feedbackItem/FeedbackItem';
 
 export const Home = () => {
   return (
     <div className='home'>
       <FeedbackForm />
       <FeedbackStats />
+      <FeedbackItem />
     </div>
   );
 };
