@@ -9,6 +9,11 @@ export const Home = () => {
       <FeedbackForm />
       <FeedbackStats />
       <FeedbackItem />
+      <FeedbackItem />
+      <FeedbackItem />
+      <FeedbackItem />
+      <FeedbackItem />
+      <FeedbackItem />
     </div>
   );
 };

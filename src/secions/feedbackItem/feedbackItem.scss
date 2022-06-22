@@ -1,6 +1,8 @@
 @import '../../styles/global.scss';
 
 section#feedback-item {
+  margin-bottom: 4rem;
+
   div.contents {
     display: grid;
     grid-template-columns: min-content 1fr min-content;
